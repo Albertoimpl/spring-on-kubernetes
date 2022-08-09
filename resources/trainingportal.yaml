@@ -1,0 +1,16 @@
+apiVersion: training.educates.dev/v1beta1
+kind: TrainingPortal
+metadata:
+  name: lab-spring-on-kubernetes
+spec:
+  portal:
+    registration:
+      type: anonymous
+    updates:
+      workshop: true
+  workshops:
+  - name: lab-spring-on-kubernetes
+    capacity: 1
+    expires: 60m
+    orphaned: 5m
+    
