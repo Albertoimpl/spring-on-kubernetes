@@ -15,11 +15,24 @@ spec:
       - /exercises/**
   session:
     namespaces:
+      limits:
+        min:
+          cpu: 50m
+          memory: 32Mi
+        max:
+          cpu: 1000m
+          memory: 2Gi
+        defaultRequest:
+          cpu: 50m
+          memory: 1Gi
+        default:
+          cpu: 500m
+          memory: 1Gi
       budget: large
       security:
         policy: baseline
     resources:
-      memory: 2Gi
+      memory: 4Gi
     applications:
       terminal:
         enabled: true
@@ -30,4 +43,3 @@ spec:
         enabled: true
       docker:
         enabled: true
-  

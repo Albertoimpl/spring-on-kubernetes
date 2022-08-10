@@ -23,12 +23,3 @@ The editor takes a few moments to load, please select the **Editor** tab now to 
 ```dashboard:open-dashboard
 name: Editor
 ```
-
-#### Workshop Console (Ocant)
-You will have the ability to inspect your Kubernetes cluster with [Octant](https://github.com/vmware-tanzu/octant), an Open Source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
-
-You haven't deployed anything to Kubernetes so there isn't much to display at the moment. When you get to the section `7: Deploying to Kubernetes`, you will have a Kubernetes cluster and a Spring Boot app to inspect with [Octant](https://github.com/vmware-tanzu/octant).
-
-```dashboard:open-dashboard
-name: Console
-```
