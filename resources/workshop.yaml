@@ -13,7 +13,10 @@ spec:
       includePaths:
       - /workshop/**
       - /exercises/**
-  session:
+  session: 
+    dashboards:
+      - name: Petclinic
+        url: "http://$(session_namespace)-petclinic.$(ingress_domain)/"
     namespaces:
       limits:
         min:
