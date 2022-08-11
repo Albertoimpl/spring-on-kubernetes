@@ -1,5 +1,11 @@
-Skaffold also makes it easy to attach a debugger to the container running in Kubernetes
+To enable debugging from the editor, we'll first install the Java and debugging support extensions:
 
+```execute-1
+code-server --install-extension redhat.java
+code-server --install-extension vscjava.vscode-java-debug
+```
+
+Skaffold also makes it easy to attach a debugger to the container running in Kubernetes
 
 ```execute-1
 skaffold debug --port-forward 
