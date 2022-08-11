@@ -9,7 +9,7 @@ spec:
     image: jdk17-environment:*
     files:
     - image:
-        url: $(image_repository)/lab-spring-on-kubernetes-files:latest
+        url: $(image_repository)/spring-on-kubernetes-files:latest
       includePaths:
       - /workshop/**
       - /exercises/**
