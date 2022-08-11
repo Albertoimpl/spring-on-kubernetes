@@ -3,7 +3,7 @@
 *   We have a Kustomization that we can use to easily get it up and running
 
 ```execute-1
-kustomize build https://github.com/dsyer/docker-services/layers/samples/petclinic?ref=HEAD | kubectl apply -f -
+kustomize build https://github.com/dsyer/docker-services/layers/samples/petclinic?ref=4d8af557515ca747a27a60e801e0b788b2452eae | kubectl apply -f -
 ```
 
 The above `kustomize build` command may take some time to complete.  You can watch the pod status to know once everything is ready.
